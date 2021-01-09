@@ -1,0 +1,65 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Questrial&display=swap');
+
+:root {
+  /* fonts variables */
+  --head-font: Allura, sans-serif;
+  --body-font: Questrial, sans-serif;
+
+  /* Site colors */
+  --color1: #f9f7f7;
+  --color2: #dbe2ef;
+  --accent1: #3f72af;
+  --accent2: #112d4e;
+}
+
+body {
+    background-color: var(--color2);
+    max-width: 750px;
+    margin: auto;
+    font-family: var(--body-font);
+    padding: 1em;
+}
+
+header, footer {
+    background-color: var(--accent1);
+    color: var(--color1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.mH_h1_name {
+    font-size: 2.8em;
+    text-align: left;
+    position: absolute;
+    color: lightblue;
+    margin: 20px 15px 20px 0;
+}
+
+.mH_h1_lastName {
+    font-family: var(--head-font);
+    margin: 25px 15px 0 60px;
+    text-align: left;
+    font-size: 5em;
+    color: var(--color1);
+}
+
+.mH_img {
+    border: 8px solid var(--color2);
+    border-radius: 10px;
+    float: right;
+    margin: -120px auto;
+}
+
+li {
+    padding: .3em;
+}
+
+footer {
+    text-align: center;
+}
+
+.divLastModified {
+    padding: 10px;
+    font-size: .8em;
+}
