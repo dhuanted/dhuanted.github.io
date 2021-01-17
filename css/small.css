@@ -1,10 +1,18 @@
 /* Import Google Fonts 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Questrial&display=swap'); */
 
+/* Call fonts from Google Font
+font-family: 'Allura', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+/*** CSS FOR MOBILE VIEW ***/
+
 :root {
   /* fonts variables */
   --head-font: Allura, sans-serif;
   --body-font: Questrial, sans-serif;
+  --alt-font: Montserrat, sans-serif;
 
   /* Site colors */
   --color1: #f9f7f7;
@@ -25,11 +33,17 @@ header, footer {
     background-color: var(--accent1);
     color: var(--color1);
     padding: 20px;
-    border-radius: 15px;
+    
+}
+
+.myHeader::after{
+    content: "";
+    clear: both;
+    display:table;
 }
 
 .mH_h1_name {
-    font-size: 2.8em;
+    font-size: 1.8em;
     text-align: left;
     position: absolute;
     color: lightblue;
@@ -38,17 +52,17 @@ header, footer {
 
 .mH_h1_lastName {
     font-family: var(--head-font);
-    margin: 25px 15px 0 60px;
-    text-align: left;
-    font-size: 5em;
+    margin: 25px -50px 0 60px;
+    font-size: 3em;
     color: var(--color1);
+    position: absolute;
 }
 
 .mH_img {
     border: 8px solid var(--color2);
     border-radius: 10px;
-    float: right;
-    margin: -120px auto;
+    float:right;
+    width: 90px;
 }
 
 li {
