@@ -16,75 +16,104 @@ font-family: 'Questrial', sans-serif; */
 
   /* Site colors */
   --color1: #f9f7f7;
-  --color2: #dbe2ef;
+  --color2: #c7cedb;
   --accent1: #3f72af;
   --accent2: #112d4e;
 }
 
-section {
-    border-style: solid;
-    border-width: 5px;
-    border-color: var(--color2);
-    background-color: var(--accent1);
-    color: var(--color1);
-    padding: 0 1em;
-    font-family: var(--alt-font);
-  }
-
 body {
-    background-color: var(--color2);
-    max-width: 750px;
-    margin: auto;
-    font-family: var(--body-font);
-    padding: 1em;
+  background-color: var(--color2);
+  max-width: 900px;
+  margin: auto;
+  font-family: var(--body-font);
+  padding: 1em;
 }
 
-header, footer {
-    background-color: var(--accent1);
-    color: var(--color1);
-    padding: 20px;
-    
+header,
+footer {
+  background-color: var(--accent1);
+  color: var(--color1);
+  padding: 20px;
+  
 }
 
-.myHeader::after{
-    content: "";
-    clear: both;
-    display:table;
+img {
+    width: 250px;
+}
+
+.myHeader::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .mH_h1_name {
-    font-size: 1.8em;
-    text-align: left;
-    position: absolute;
-    color: lightblue;
-    margin: 20px 15px 20px 0;
+  font-size: 1.8em;
+  text-align: left;
+  position: absolute;
+  color: lightblue;
+  margin: 20px 15px 20px 0;
 }
 
 .mH_h1_lastName {
-    font-family: var(--head-font);
-    margin: 25px -50px 0 60px;
-    font-size: 3em;
-    color: var(--color1);
-    position: absolute;
+  font-family: var(--head-font);
+  margin: 25px -50px 0 60px;
+  font-size: 3em;
+  color: var(--color1);
+  position: absolute;
 }
 
 .mH_img {
-    border: 8px solid var(--color2);
-    border-radius: 10px;
-    float:right;
-    width: 90px;
+  border: 8px solid var(--color2);
+  border-radius: 10px;
+  float: right;
+  width: 90px;
 }
 
 li {
-    padding: .3em;
+  padding: 0.3em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
 }
 
 footer {
-    text-align: center;
+  text-align: center;
 }
 
 .divLastModified {
-    padding: 10px;
-    font-size: .8em;
+  padding: 10px;
+  font-size: 0.8em;
 }
 
+section {
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--color1);
+  background-color: var(--accent1);
+  color: var(--color1);
+  padding: .5em;
+  border: .5em
+  font-family: var(--alt-font);
+}
+
+section a {
+  color: var(--color1);
+}
+
+section a:visited {
+  color: yellow;
+}
+
+section a:hover {
+  color: orange;
+}

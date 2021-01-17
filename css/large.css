@@ -1,0 +1,50 @@
+/*** CSS FOR LARGE SCREEN VIEW ***/
+
+@media only screen and (min-width: 60em) {
+  .mH_h1_name {
+    font-size: 3em;
+  }
+
+  .mH_h1_lastName {
+    font-size: 6em;
+  }
+
+  .mH_img {
+    border-radius: 12px;
+  }
+
+  .tres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .sec1 {
+    grid-column: 1;
+    padding: 1em;
+    margin: 0.5em;
+  }
+
+  .sec2 {
+    grid-column: 2;
+    padding: 1em;
+    margin: 0.5em;
+  }
+
+  .sec3 {
+    grid-column: 3;
+    padding: 1em;
+    margin: 0.5em;
+  }
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
