@@ -16,7 +16,7 @@
   .tres {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 900px;;
+    max-width: 900px;
   }
 
   .sec1 {

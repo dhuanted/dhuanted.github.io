@@ -1,0 +1,19 @@
+@media only screen and (min-width: 60em) {
+  h2,
+  #font-lato {
+    font-family: var(--head-font);
+    font-size: 2em;
+  }
+
+  #font-roboto {
+    font-size: 2em;
+  }
+
+  header {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
