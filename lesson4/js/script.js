@@ -31,7 +31,8 @@ let daynames = [
   let vLastModified = new Date(document.lastModified);
   document.getElementById("lastModified").textContent = vLastModified;
   
-  fuction toggleMenu() {
+  function toggleMenu() {
+      //console.log("it worwed");
       //console.log(document.getElementById("primaryNav").classList);
       document.getElementById("primaryNav").classList.toggle("hide");
   }
