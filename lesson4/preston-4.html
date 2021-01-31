@@ -7,8 +7,8 @@
     <title>Natureish Fortecast</title>   
     <meta name="description" content="Natureish Forecast's Page"/>
     <link rel="stylesheet" href="css/normalize.css">
-    <!-- <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/small.css">
+    <!-- <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
@@ -22,8 +22,40 @@
         <h2>"Your source for weather data"</h2></section>
         <nav id="navHeader">
             <button onclick="toggleMenu()">&#9776</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="#">Home</a> </li>
+                <li class="active"><a href="preston-4.html">Preston</a> </li>
+                <li><a href="#">Soda Springs</a> </li>
+                <li><a href="#">Fish Haven</a> </li>
+                <li><a href="#">Storm Center</a> </li>
+                <li><a href="#">Gallery</a> </li>
+            </ul>
         </nav>
     </header>
-    <a href="../index.html">Go to Homepage</a>
+    <main>
+        <h2>Preston, Idaho</h2>
+        <img src="images/imgPreston.jpg" alt="Preston City's logo" title="https://www.prestonidaho.net/">
+        <p>Preston is a city located in Franklin County in the US state of Idaho</p>
+        <div class="contentBox">Weather Summary</div>
+        <div class="contentBox">5 Day Forecast</div>
+        <div class="contentBox">Article</div>
+        <br><br>
+        <a href="../index.html">Go to Homepage</a>
+        <hr>
+    </main>
+    <footer>
+        &copy; <span id="currentYear"></span> David Huante &nbsp; | &nbsp;
+      Woodbridge, Canada &nbsp;|&nbsp;
+      <a href="http://www.byui.edu/online" target="_blank"
+        >BYU-I Online Learning</a
+      >
+      &nbsp;|&nbsp;
+      <span id="currentDate"></span>
+      <div class="divLastModified">
+        Last Modified: <span id="lastModified"></span>
+      </div>
+      <!-- Script's Dates section -->
+      <script src="js/script.js"></script>
+    </footer>
 </body>
 </html>
