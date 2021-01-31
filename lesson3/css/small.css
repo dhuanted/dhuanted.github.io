@@ -2,8 +2,8 @@
 
 :root {
   /* fonts variables */
-  --head-font: Lato, sans-serif;
-  --body-font: Roboto, sans-serif;
+  --head-font: 'Noto Serif', sans-serif;
+  --body-font: Lato, sans-serif;
 
   /* Site colors */
   --font1: #081c15;
