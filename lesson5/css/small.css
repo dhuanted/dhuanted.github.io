@@ -17,7 +17,7 @@ body {
     background-color: var(--color1);
 }
 
-header, nav, main, footer .imgPreston{
+header, nav, main, footer {
     max-width: 760px;
     margin: 0 auto;
 }
@@ -47,6 +47,20 @@ header section {
   h1, h2, h3, h4, h5, h6 {
       font-family: var(--head-font);
   }
+
+  aside.announcement {
+    background-color: var(--color1);
+    color: var(--accent1);
+    padding: .3em;
+    margin-top: 0;
+    margin: 1em;
+    text-align: center;
+  }
+
+  aside#pancakes.announcement.hide {
+    display: none;
+  }
+  
 
   nav {
       background-color: var(--accent1);
@@ -87,12 +101,27 @@ nav ul.hide {
       display:none;
   } 
 
-.imgPreston {
-    align-content: center;
-    width: 50%;
-}
+  .herodiv {
+    position: relative;
+  }
 
-.contentBox {
+  .weathersummary {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: rgba(153, 180, 191, 0.6);
+    color: var(--accent2)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    padding: .5em;
+  }
+  
+  .heroimg {
+    max-width: 100%;
+  }
+  
+
+
+.contentbox {
     background-color: var(--accent1);
     color: var(--color1);
     padding: 12px;
@@ -101,9 +130,46 @@ nav ul.hide {
     border-radius: 20px 20px 20px 0;
 }
 
+section.headings1 {
+    text-align: left;
+  }
+  
+  
+  div#mapdiv {
+    color: #2a3640;
+    text-align: center;
+  }
+  
+
+  div#five_day {
+    display: none;
+  }
+ 
+
+  div.contentbox {
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  img#ice_shack {
+    padding: 10px;
+    background-color: var(--accent2);
+    width: 100%;
+  }
+
   footer {
       text-align: center;
   }
+
+  .smicon {
+    width: 30px;
+    padding: 5px;
+  }
+  
+  iframe {
+    display: none;
+  }
+  
   /*** Clearfix. Force an element not to collapse ***/
   .clearfix:after {
       content: "";
