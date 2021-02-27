@@ -1,0 +1,38 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    nav button {display: none;}
+
+    nav ul.hide {
+        display: block;
+    }
+
+    nav ul {margin-left: 2%;}
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        padding: .8rem 1rem;
+    }
+
+/*** Main styles ***/
+form input.submitBtn {
+    border: none;
+    background-color: var(--accent1);
+    color: --color1;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2rem;
+    width: 96%;
+    max-width: 20rem;
+  }
+
+  textarea {
+    max-width: 80%;
+    padding: .75rem;
+  }
+
+} /*end medium */
