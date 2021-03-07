@@ -1,25 +1,29 @@
 /* 35em is also 560px when basefont is 16px */
 @media only screen and (min-width: 35rem) {
-    nav button {display: none;}
+  nav button {
+    display: none;
+  }
 
-    nav ul.hide {
-        display: block;
-    }
+  nav ul.hide {
+    display: block;
+  }
 
-    nav ul {margin-left: 2%;}
+  nav ul {
+    margin-left: 2%;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  nav ul li {
+    float: left;
+  }
 
-    nav ul li a {
-        border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
-        padding: .8rem 1rem;
-    }
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.8rem 1rem;
+  }
 
-/*** Main styles ***/
-section.home_sect {
+  /*** Main styles ***/
+  section.home_sect {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
@@ -28,11 +32,9 @@ section.home_sect {
   section.home_sect:nth-child(6) img {
     grid-column: 1/2;
   }
-  
+
   section.home_sect:nth-child(6) div.home_town_text {
-      grid-column: 2/3;
-      grid-row: 1;
+    grid-column: 2/3;
+    grid-row: 1;
   }
-
-
 } /*end medium */
